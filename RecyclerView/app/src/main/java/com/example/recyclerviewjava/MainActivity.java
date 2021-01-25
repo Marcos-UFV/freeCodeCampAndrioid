@@ -16,8 +16,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         contactsRecView = findViewById(R.id.contactsRecView);
         ArrayList<Contact> contacts = new ArrayList<>();
-        contacts.add(new Contact("Marcos","marcos@gmail.com","https://cdn.pixabay.com/photo/2019/10/22/13/43/black-male-4568761__340.jpg"));
-        contacts.add(new Contact("Ju","juliana@gmail.com","https://cdn.pixabay.com/photo/2020/09/19/12/49/woman-5584374__340.jpg"));
+        contacts.add(new Contact("Marcos","marcos@gmail.com","https://p2.trrsf.com/image/fget/cf/460/0/images.terra.com/2020/12/11/chadwick-boseman-black-panther.jpg"));
+        contacts.add(new Contact("Ju","juliana@gmail.com","https://pipocamoderna.com.br/wp-content/uploads/2018/01/Rosario_dawson_3.jpg"));
 
         ContactsRecViewAdapter adapter = new ContactsRecViewAdapter(this);
         adapter.setContacts(contacts);
